@@ -301,3 +301,50 @@ img, iframe {
     font-size: 1.6rem;
     border: none;
 }
+
+/* footer etiketi */
+footer {
+    padding: 3rem 0rem;
+    background-color: var(--light);
+} 
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+footer p {
+    text-align: center;
+}
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-twitter {
+    color: dodgerblue;
+}
+
+.fa-instagram {
+    color: crimson;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-linkedin {
+    color: royalblue;
+}
+
+.social-links i {
+    font-size: 4rem;
+    transition: all 0.8s;
+}
+
+.social-links i:hover { 
+    color: #000;
+    transform: scale(1.3);
+}
