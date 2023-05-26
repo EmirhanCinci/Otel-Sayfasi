@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+    html {
+        font-size: 8px;
+    }
+
+    /* main-header etiketi */
+    /* navbar etiketi */
+    .navbar {
+        height: 13rem;
+        padding: 2rem 0rem;
+        flex-direction: column;
+    }
+
+    /* main etiketi */
+    /* services etiketi */
+    #services {
+        flex-direction: column;
+    }
+
+    /* about etiketi */
+    #about {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about-content {
+        padding: 5rem 3rem;
+    }
+
+    /* gallery etiketi */
+    .gallery-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -39,6 +39,7 @@ p {
 
 img {
     width: 100%;
+    height: 100%;
 }
 
 /* main-header */
@@ -70,7 +71,7 @@ img {
 /* navbar etiketi */
 .navbar {
     width: 100%;
-    height: 70px;
+    height: 7rem;
     padding: 0 3rem;
     position: fixed;
     top: 0;
@@ -126,4 +127,96 @@ img {
     max-width: 60rem;
     margin: 2rem 0 3rem;
     font-size: 2.3rem;
+}
+
+/* main etiketi */
+/* services etiketi */
+#services {
+    margin: 5rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.services-item {
+    padding: 1rem 1rem;
+}
+
+.services-item h3 {
+    margin: 1rem 0rem;
+}
+
+.services-item i {
+    padding: 1rem;
+    color: var(--light);
+    border-radius: 50%;
+    background-color: var(--primary);
+}
+
+/* about etiketi */
+#about {
+    margin: 5rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--white);
+    background-color: var(--secondary);
+}
+
+.about-content {
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h3 {
+    font-size: 3rem;
+}
+
+.about-content p {
+    margin: 2rem 0rem;
+    font-size: 1.8rem;
+}
+
+.about-content a {
+    align-self: start;
+}
+
+/* gallery etiketi */
+#gallery {
+    margin: 5rem 0rem;
+}
+
+.gallery-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.gallery-header h3 {
+    font-size: 3rem;
+}
+
+.gallery-header p {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+}
+
+.gallery-images {
+    margin: 0rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem;
+}
+
+.gallery-images-item, img {
+    border-radius: 18px;
+    transition: all 0.5s;
+}
+
+.gallery-images-item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: rotateY(360deg);
 }
