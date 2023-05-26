@@ -18,7 +18,7 @@
     }
 
     /* about etiketi */
-    #about {
+    .about {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -29,5 +29,14 @@
     /* gallery etiketi */
     .gallery-images {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* rooms, teams ve contact etiketleri */
+    .room-cards, .team-cards, #contact {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    iframe {
+        height: 40rem;
     }
 }

@@ -37,7 +37,7 @@ p {
     margin: 1rem 0;
 }
 
-img {
+img, iframe {
     width: 100%;
     height: 100%;
 }
@@ -156,7 +156,7 @@ img {
 }
 
 /* about etiketi */
-#about {
+.about {
     margin: 5rem 0rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -189,16 +189,16 @@ img {
     margin: 5rem 0rem;
 }
 
-.gallery-header {
+.section-header {
     text-align: center;
     margin-bottom: 5rem;
 }
 
-.gallery-header h3 {
+.section-header h3 {
     font-size: 3rem;
 }
 
-.gallery-header p {
+.section-header p {
     margin-top: 2rem;
     font-size: 1.8rem;
 }
@@ -210,7 +210,7 @@ img {
     gap: 2.5rem;
 }
 
-.gallery-images-item, img {
+.gallery-images-item, .gallery-images-item img {
     border-radius: 18px;
     transition: all 0.5s;
 }
@@ -219,4 +219,85 @@ img {
     cursor: pointer;
     opacity: 0.8;
     transform: rotateY(360deg);
+}
+
+/* about-2 etiketi */
+.about-2 {
+    background-color: var(--primary);
+}
+
+/* rooms etiketi */
+#rooms {
+    margin: 5rem;
+}
+
+.room-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.room-card {
+    color: var(--white);
+    background-color: var(--warning);
+}
+
+.room-content {
+    padding: 1rem 2rem;
+}
+
+.room-card p {
+    text-indent: 1.5rem;
+    text-align: justify;
+}
+
+/* teams etiketi */
+#teams {
+    margin: 5rem 0rem;
+}
+
+.team-cards {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.team-card-image img {
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.team-card-image img:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    border-radius: 18px;
+}
+
+/* contact etiketi */
+#contact {
+    margin: 5rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--light);
+}
+
+.contact-form {
+    padding: 3rem;
+}
+
+#contact h3 {
+    font-size: 3rem;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control input {
+    margin: 1rem 0rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border: none;
 }
