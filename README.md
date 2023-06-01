@@ -1,6 +1,6 @@
 # CİNCİ Hotel Sayfa Tasarım Projesi
 
-HTML ve CSS kullanarak oluşturduğum Google Beta Clone projesinin netlify'da yayınlanmış halini görmek için [tıklayınız](https://cincihotel.netlify.app/).
+HTML ve CSS kullanarak oluşturduğum Otel sitesi projesinin netlify'da yayınlanmış halini görmek için [tıklayınız](https://cincihotel.netlify.app/).
 
 Bu projeyi yaparken kendimi geliştirdiğim ve öğrendiğim konular ise;
 
